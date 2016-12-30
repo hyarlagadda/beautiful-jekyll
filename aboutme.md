@@ -4,13 +4,13 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Harish Yarlagadda.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I am into building startups. I built several products so far.
+- I build mobile apps (iOS native, Android native & hybrid). 
+- I also design and build highly scalable REST API.
+- My ToolKit: Scala, Java, Swift, Spring, Play, Akka, React, AngularJS, JavaScript, Objective-C, HTML5, BootStrap, Gulp, Git,    gradle, maven 
 
 What else do you need?
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Let's plan for a date.
