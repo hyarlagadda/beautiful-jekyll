@@ -43,8 +43,8 @@ avatar: "/img/RedShirt.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Harish Yarlagadda
-  email: "hyarlagadda23@gmail.com"
-  facebook: hyarlagadda.yarlagadda.12  # eg. daattali
+  email: yourname
+  facebook: yourname  # eg. daattali
   github: hyarlagadda    # eg. daattali
   twitter: harish_yar   # eg. daattali
   reddit: yourname    # eg. daattali
@@ -61,8 +61,8 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
-  email: true
+  facebook: false
+  email: false
   twitter: true
   google-plus: false
   github: true
