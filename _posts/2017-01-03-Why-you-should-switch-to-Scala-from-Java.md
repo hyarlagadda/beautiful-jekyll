@@ -1,14 +1,8 @@
 ---
 layout: post
 published: false
-title: Untitled
----
-
----
-layout: post
-title: 'Why Java developers should consider Scala '
-published: false
-subtitle: You been a Java developer for a while and you are bored.
+title: Why Java developers should consider Scala
+subtitle: You been a Java developer for a while and you are bored
 date: '2017-01-03'
 ---
 
@@ -34,7 +28,6 @@ date: '2017-01-03'
 
         Java version
 
-        
 
         <div class="highlighter-rouge"><pre class="highlight"><code>
 
