@@ -5,12 +5,12 @@ title: Why Java developers should consider Scala
 subtitle: You been a Java developer for a while and you are bored
 date: '2017-01-03'
 ---
-                Happy New Year 2017 !!! 
+##    Happy New Year 2017 !!! 
     
-    If you are like me, you are a veteran Java developer for more than a decade. You are bored of writing boiler plate Java code year after year. The only Java changes you heard in a decade are Java version changes every four years or so. 
+    > If you are like me, you are a veteran Java developer for more than a decade. You are bored of writing boiler plate Java code year after year. The only Java changes you heard in a decade are Java version changes every four years or so. 
     
     
-    If you have been to hackactons or Startupweekends, you can see Ruby on Rails developers, AngularJS developers hack away building full stack web apps in couple of hours. In contrast as a Java developer you are still trying to create the folder structure for a traditional Java/J2EE application. How do you compete when your core skillset, Java in a JVM environment is such a big disadvantage?
+    If you have been to hackactons or Startupweekends, you can see Ruby on Rails developers, AngularJS developers hack away building full stack web apps in couple of hours. In contrast as a Java developer you are still trying to create the folder structure for a traditional Java/J2EE application. How do you compete when your core skillset, Java in a JVM environment is such a big disadvantage? 
  
  
         						New Kid on the block
