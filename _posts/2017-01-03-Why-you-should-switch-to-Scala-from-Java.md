@@ -31,33 +31,39 @@ package com.harishblog;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-public class SquareOfNumberCalculator {
-public static void main(String[] args) {
-// TODO Auto-generated method stub
-List<Integer> myList = Arrays.asList(1, 2, 3, 4, 5);
-SquareOfNumberCalculator calculator = new SquareOfNumberCalculator();
-List<Integer> squaredNumbers = calculator.squareOfNumbers(myList);
-//Print original list
-System.out.println("Printing original numbers");
-calculator.printNumbers(myList);
-//Print squared list
-System.out.println("Printing squared numbers");
-calculator.printNumbers(squaredNumbers);
-}
-	
-public void printNumbers(List<Integer> numbers) {
-for (Integer i : numbers) {
-System.out.println(" i --> " + i);
-}
-}
 
-public List<Integer> squareOfNumbers(List<Integer> numbers) {
-List<Integer> squaredNumbers = new ArrayList<Integer>();
-for (Integer i : numbers ) {
-squaredNumbers.add(i * i);
-}
-return squaredNumbers;
-}
+public class SquareOfNumberCalculator {
+ 
+  public static void main(String[] args) {
+   
+      List<Integer> myList = Arrays.asList(1, 2, 3, 4, 5);
+      SquareOfNumberCalculator calculator = new SquareOfNumberCalculator();
+      List<Integer> squaredNumbers = calculator.squareOfNumbers(myList);
+
+      //Print original list
+      System.out.println("Printing original numbers");
+      calculator.printNumbers(myList);
+      //Print squared list
+      System.out.println("Printing squared numbers");
+      calculator.printNumbers(squaredNumbers);
+  }
+	
+   public void printNumbers(List<Integer> numbers) {
+      
+      for (Integer i : numbers) {
+         System.out.println(" i --> " + i);
+      }
+   }
+
+   public List<Integer> squareOfNumbers(List<Integer> numbers) {
+       
+       List<Integer> squaredNumbers = new ArrayList<Integer>();
+       for (Integer i : numbers ) {
+           squaredNumbers.add(i * i);
+       }
+       
+       return squaredNumbers; 
+    }
 
 }
 ```
