@@ -13,7 +13,7 @@ If you are like me, you are a veteran Java developer for more than a decade. You
 If you have been to hackactons or Startupweekends, you can see Ruby on Rails developers, AngularJS developers hack away building full stack web apps in couple of hours. In contrast as a Java developer you are still trying to create the folder structure for a traditional Java/J2EE application. How do you compete when your core skillset, Java in a JVM environment is such a big disadvantage? 
  
 ### New Kid on the block
-	
+
 #### You have a new language to the rescue. Welcome to Scala language !!!
 
 Scala is a functional programming language built to run on Java JVM. That's right Scala needs Java JDK to run. Martin Odersky created scala after realizing all the downfalls of Java. In fact, Martin was original member of Java compiler team. Scala has no boilerplate code compared to Java.
