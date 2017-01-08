@@ -29,7 +29,7 @@ date: '2017-01-03'
         Java version
 
 
-        <div class="highlighter-rouge"><pre class="highlight"><code>
+ {% highlight scala linenos %} 
 
         package com.harishblog;
 
@@ -114,9 +114,4 @@ public class SquareOfNumberCalculator {
 	
 
 }
-
-
-
-</code></pre>
-
-</div>
+{% endhighlight %}
