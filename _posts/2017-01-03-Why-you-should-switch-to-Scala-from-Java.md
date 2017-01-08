@@ -24,7 +24,6 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 
 ### Java version
 
-{% highlight java linenos %} 
 ```java
 package com.harishblog;
 import java.util.ArrayList;
@@ -66,5 +65,4 @@ public class SquareOfNumberCalculator {
 
 }
 ```
-{% endhighlight %}
 
