@@ -22,7 +22,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 
 * To try some of these samples download Eclipse IDE for Scala. 
 
-### Java version
+#### Java version
 
 ```java
 package com.harishblog;
@@ -63,6 +63,36 @@ public class SquareOfNumberCalculator {
        return squaredNumbers; 
     }
 
+}
+```
+
+#### Scala version
+
+```scala
+package main.scala
+
+object SquareOfNumberScalaCalculator {
+
+  def main(args: Array[String]): Unit = {
+    
+     //Define a function to print elements in list    
+     def printList(listToPrint: List[Int]) {
+       
+       //Call foreach method on each element of list
+        listToPrint.foreach(println( _ ))
+      }
+        
+      //Create a list
+      val list = List(1, 2, 3, 4, 5)
+    
+      println("Printing original list")
+      printList(list)
+    
+      //Square every element in the list by calling map method on list
+      val squaredList = list.map( x => x * x)
+      println("Priting squared list")
+      printList(squaredList)
+  }
 }
 ```
 
