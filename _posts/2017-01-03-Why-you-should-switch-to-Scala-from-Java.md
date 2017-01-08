@@ -26,20 +26,14 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 ### Java version
 
 
- {% highlight scala linenos %} 
+ {% highlight java linenos %} 
 
 package com.harishblog;
-
 import java.util.ArrayList;
-
 import java.util.Arrays;
-
 import java.util.List;
-
 public class SquareOfNumberCalculator {
-
 public static void main(String[] args) {
-
 // TODO Auto-generated method stub
 List<Integer> myList = Arrays.asList(1, 2, 3, 4, 5);
 SquareOfNumberCalculator calculator = new SquareOfNumberCalculator();
