@@ -105,6 +105,19 @@ Keyword **_object_** makes this a Singleton class. The **_extends App_** makes a
 
 **_def_** is keyword for defining a function. It takes parameter listToPrint of type **_List[Int]_**. The return type is **_Unit_** aka void in Java.
 
+**_listToPrint.foreach(println( _ ))_**
 
+We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **___** (underscore) is current element. 
+
+ **_val list = List(1, 2, 3, 4, 5)_**
+ 
+ In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else. There is no need for **_new_** for creating List. We will discuss that later.
+ 
+ **_val squaredList = list.map( x => x * x)_**
+ 
+ We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (sqaure).
+ 
+ Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Anonymous functions make it easy to express developer intentions.
+ 
 
 
