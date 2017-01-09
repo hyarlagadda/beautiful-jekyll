@@ -6,7 +6,7 @@ subtitle: Are you a seasoned Java developer and bored of Java
 date: '2017-01-03'
 ---
 
-![ScalaVSJava](/img/ScalaVSJava.png)
+![Happy New Year](/img/2016JumpTo2017Export.png) 
 
 ##    Happy New Year 2017 !!! 
     
@@ -125,7 +125,6 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
  Cheers to a New Year and learning a new language Scala !!!
  
-![Happy New Year](/img/2016JumpTo2017Export.png) 
- 
+ //![ScalaVSJava](/img/ScalaVSJava.png)
 
 
