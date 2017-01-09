@@ -20,7 +20,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
         
 * Scala has no boiler plate code
 
-* To try some of these samples download Eclipse IDE for Scala. 
+* To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
 #### Java version
 
