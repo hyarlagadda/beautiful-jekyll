@@ -125,6 +125,5 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
  Cheers to a New Year and learning a new language Scala !!!
  
- //![ScalaVSJava](/img/ScalaVSJava.png)
-
+ 
 
