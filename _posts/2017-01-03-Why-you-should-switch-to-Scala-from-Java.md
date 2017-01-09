@@ -4,7 +4,9 @@ published: true
 title: Why Java developers should consider Scala
 subtitle: You been a Java developer for a while and you are bored
 date: '2017-01-03'
+bigimg: /img/ScalaVSJava.png
 ---
+
 ##    Happy New Year 2017 !!! 
     
 If you are like me, you are a veteran Java developer for more than a decade. You are bored of writing boiler plate Java code year after year. The only Java changes you heard in a decade are Java version changes every four years or so. 
