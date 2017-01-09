@@ -107,7 +107,7 @@ Keyword **_object_** makes this a Singleton class. The **_extends App_** makes a
 
 **_listToPrint.foreach(println( _ ))_**
 
-We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **___** (underscore) is current element. 
+We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
 
  **_val list = List(1, 2, 3, 4, 5)_**
  
@@ -117,7 +117,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
- ### Conclusion
+ #### Conclusion
  
  Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Anonymous functions make it easy to express developer intentions.
  
