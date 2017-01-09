@@ -119,9 +119,13 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 #### Conclusion
  
- Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Anonymous functions make it easy to express developer intentions.
+ Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Types are inferred. Anonymous functions make it easy to express developer intentions. 
  
  We haven't even scratched the surface of Scala. This is a gentle introduction to get your feet wet. 
+ 
+ Cheers to a New Year and learning a new language Scala !!!
+ 
+[Happy New Year](/img/2016JumpTo2017Export.png) 
  
 
 
