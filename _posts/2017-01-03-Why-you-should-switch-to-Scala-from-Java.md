@@ -71,10 +71,8 @@ public class SquareOfNumberCalculator {
 ```scala
 package main.scala
 
-object SquareOfNumberScalaCalculator {
-
-  def main(args: Array[String]): Unit = {
-    
+object SquareOfNumberScalaCalculator extends App {
+  
      //Define a function to print elements in list    
      def printList(listToPrint: List[Int]) {
        
@@ -92,7 +90,6 @@ object SquareOfNumberScalaCalculator {
       val squaredList = list.map( x => x * x)
       println("Priting squared list")
       printList(squaredList)
-  }
 }
 ```
 
