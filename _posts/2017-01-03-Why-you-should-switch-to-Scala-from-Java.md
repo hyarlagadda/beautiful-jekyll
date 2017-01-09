@@ -92,4 +92,9 @@ object SquareOfNumberScalaCalculator extends App {
       printList(squaredList)
 }
 ```
+The first line
+
+**object SquareOfNumberScalaCalculator extends App**
+
+Keyword **_object_** makes this a Singleton class. The **_extends App_** makes all the code within like a main method in Java.
 
