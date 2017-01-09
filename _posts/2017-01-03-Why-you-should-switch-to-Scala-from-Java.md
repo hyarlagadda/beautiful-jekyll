@@ -111,13 +111,16 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
  **_val list = List(1, 2, 3, 4, 5)_**
  
- In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else. There is no need for **_new_** for creating List. We will discuss that later.
+ In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later.
  
  **_val squaredList = list.map( x => x * x)_**
  
- We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (sqaure).
+ We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
+ ### Conclusion
  Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Anonymous functions make it easy to express developer intentions.
+ 
+ We haven't even scratched the surface of Scala. This is a gentle introduction to get your feet wet. 
  
 
 
