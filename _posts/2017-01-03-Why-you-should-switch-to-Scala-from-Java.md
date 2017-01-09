@@ -74,7 +74,7 @@ package main.scala
 object SquareOfNumberScalaCalculator extends App {
   
      //Define a function to print elements in list    
-     def printList(listToPrint: List[Int]) {
+     def printList(listToPrint: List[Int]): Unit = {
        
        //Call foreach method on each element of list
         listToPrint.foreach(println( _ ))
@@ -94,7 +94,14 @@ object SquareOfNumberScalaCalculator extends App {
 ```
 The first line
 
-**object SquareOfNumberScalaCalculator extends App**
+**object SquareOfNumberScalaCalculator extends App {**
 
 Keyword **_object_** makes this a Singleton class. The **_extends App_** makes all the code within like a main method in Java.
+
+**def printList(listToPrint: List[Int]): Unit = {**
+
+**_def_** is keyword for defining a function. It takes parameter listToPrint of type **_List[Int]_**. The return type is **_Unit_** aka void in Java.
+
+
+
 
