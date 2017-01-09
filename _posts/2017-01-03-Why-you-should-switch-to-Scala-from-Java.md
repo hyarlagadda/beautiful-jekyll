@@ -103,7 +103,7 @@ Keyword **_object_** makes this a Singleton class. The **_extends App_** makes a
 
 **def printList(listToPrint: List[Int]): Unit = {**
 
-**_def_** is keyword for defining a function. It takes parameter listToPrint of type **_List[Int]_**. The return type is **_Unit_** aka void in Java.
+**_def_** is keyword for defining a function. It takes parameter listToPrint of type **_List[Int]_**. The return type is **_Unit_** aka void in Java. In scala you don't need return statement. The last statement in a function is the return value.
 
 **_listToPrint.foreach(println( _ ))_**
 
@@ -111,7 +111,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
  **_val list = List(1, 2, 3, 4, 5)_**
  
- In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later.
+ In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later. In Scala data types are inferred. You never mentioned constant list is of type List collection but Scala compiler will infer it. 
  
  **_val squaredList = list.map( x => x * x)_**
  
