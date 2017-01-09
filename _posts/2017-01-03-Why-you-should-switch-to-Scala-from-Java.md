@@ -118,6 +118,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
  ### Conclusion
+ 
  Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Anonymous functions make it easy to express developer intentions.
  
  We haven't even scratched the surface of Scala. This is a gentle introduction to get your feet wet. 
