@@ -4,8 +4,9 @@ published: true
 title: Why Java developers should consider Scala
 subtitle: You been a Java developer for a while and you are bored
 date: '2017-01-03'
-bigimg: /img/ScalaVSJava.png
 ---
+
+![ScalaVSJava](/img/ScalaVSJava.png)
 
 ##    Happy New Year 2017 !!! 
     
