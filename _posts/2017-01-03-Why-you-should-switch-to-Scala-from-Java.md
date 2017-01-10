@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Why Java developers should consider Scala
 subtitle: Are you a seasoned Java developer and bored of Java
+comments: true
 date: '2017-01-03'
 ---
 
