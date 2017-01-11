@@ -27,6 +27,11 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Encourages immutability
 * Strong Type safety
 * Getter and Setter on member data is not requied
+* Large open source community (Play for web apps with scaffolding, Akka for REST API, Scalajs for Javascript etc)
+* Ability to write Domain Specific languages (DSL) with ease
+* Runs on well known Java JVM environment
+* Strong support of Testing (Unit testing frameworks - ScalaTest)
+* Pattern matching (not regular expressions)
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
