@@ -34,6 +34,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Pattern matching (not regular expressions)
 * Forget NullPointerExceptions as Option's will make your code safe
 * You can reuse your existing Java libraries from Scala
+* Higher order functions[Higher Order functions]
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
@@ -113,15 +114,15 @@ object SquareOfNumberScalaCalculator extends App {
       
       //Function that takes a list and function as parameter
       //The function name is "operation" of type Int input and Int output
-      def modifyList(list: List[Int], operation: (Int) => Int): List[Int] = {
+      def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {
         list.map(operation(_))
       }
      
       //square 
-      val squareList = modifyList(list, square)
+      val squareList = operateOnList(list, square)
       
       //Cube
-      val cubeList = modifyList(list, cube)
+      val cubeList = operateOnList(list, cube)
       
       println("Squared list \n")
       printList(squareList)
@@ -185,9 +186,10 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
-**_def modifyList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
+[Higher Order functions]: 
+**_def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
  
-Define a function that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
+Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
  
 ### Companies using Scala
 
