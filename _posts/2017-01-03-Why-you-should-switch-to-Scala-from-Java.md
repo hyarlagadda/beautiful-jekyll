@@ -127,6 +127,21 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  **_val squaredList = list.map( x => x * x)_**
  
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another **_NEW_** collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
+ 
+### Companies using Scala
+
+Companies using Scala
+
+* Twitter
+* LinkedIn
+* Foursquare
+* Netflix
+* AirBnB
+* The Guardian
+* Apple
+* Precog
+* Sony
+* Precog
 
 #### Conclusion
  
@@ -137,4 +152,5 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  Cheers to a New Year and learning a new language Scala !!!
  
  
+
 
