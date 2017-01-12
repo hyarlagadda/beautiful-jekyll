@@ -23,8 +23,8 @@ Scala is a functional programming language built to run on Java JVM. That's righ
         
 * Scala has no boiler plate code.
 * Writing concurrent/multithreaded code is a breeze
-* [Type inference](#Type-Inference)
-* [Encourages immutability](#Immutability)
+* [Type inference](#Type-Inference-Immutability)
+* [Encourages immutability](#Type-Inference-Immutability)
 * Strong Type safety
 * [Simple class definition](#Getter-Setter-Not-Required). Getter and Setter methods on member data is not requied
 * Large open source community ([PlayFramework](http://www.playframework.com) for web apps with scaffolding, [Akka](http://akka.io) for REST API, [Scalajs](https://www.scala-js.org/) for Javascript etc)
@@ -171,8 +171,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 ---
 
-<a name="#Type-Inference">
-<a name="#Immutability">
+<a name="#Type-Inference-Immutability">
 ### Type Inference and Immutability
 
  **_val list = List(1, 2, 3, 4, 5)_**
