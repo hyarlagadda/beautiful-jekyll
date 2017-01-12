@@ -188,9 +188,9 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 <a name="Type-Inference-Immutability">
 
 
- ```scala
- val list = List(1, 2, 3, 4, 5)
- ```
+```scala
+val list = List(1, 2, 3, 4, 5)
+```
  
  In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later. In Scala data types are inferred. You never mentioned constant list is of type List collection but Scala compiler will infer it. 
  
