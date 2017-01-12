@@ -34,7 +34,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Pattern matching (not regular expressions)
 * Forget NullPointerExceptions as Option's will make your code safe
 * You can reuse your existing Java libraries from Scala
-* Higher order functions(#Higher-Order-functions)
+* [Higher order functions](#Higher-Order-functions)
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
@@ -181,7 +181,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
-[Higher Order functions]: 
+<a name="Higher-Order-functions"></a>
 **_def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
 
 **_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
