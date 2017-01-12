@@ -32,6 +32,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Runs on well known Java JVM environment
 * Strong support of Testing (Unit testing frameworks - ScalaTest)
 * Pattern matching (not regular expressions)
+* You can reuse your existing Java libraries from Scala
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
@@ -125,7 +126,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
  **_val squaredList = list.map( x => x * x)_**
  
- We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
+ We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another **_NEW_** collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
 
 #### Conclusion
  
