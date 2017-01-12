@@ -130,8 +130,6 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
 ### Companies using Scala
 
-Companies using Scala
-
 * Twitter
 * LinkedIn
 * Foursquare
