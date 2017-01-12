@@ -172,6 +172,7 @@ listToPrint.foreach(println( _ ))
 
 We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
 
+
 ----
 
 
@@ -180,18 +181,22 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 <a name="Type-Inference-Immutability">
 
+
  ```scala
  val list = List(1, 2, 3, 4, 5)
  ```
  
  In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later. In Scala data types are inferred. You never mentioned constant list is of type List collection but Scala compiler will infer it. 
  
- ```scala
- val squaredList = list.map( x => x * x)
- ```
+ 
+```scala
+val squaredList = list.map( x => x * x)
+```
+ 
  
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another **_NEW_** collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
+
 ```scala
 val square = (x: Int) =>  x * x
 ```
@@ -227,7 +232,6 @@ def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {
 Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
 
 
-
 ---- 
 
 
@@ -241,8 +245,10 @@ case class Person(firstName: String, lastName: String)
 ```
 
 Here we defined a class with member variables, constructor, getter and setter methods.
- 
+
+
 ---- 
+
 
 ### Companies using Scala
 
@@ -261,7 +267,9 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
 * Precog
 * Workday
 
+
 ----
+
 
 #### Conclusion
  
