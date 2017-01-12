@@ -181,6 +181,8 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
+--- 
+
 <a name="Higher-Order-functions"></a>
 ### Higher Order functions
 
