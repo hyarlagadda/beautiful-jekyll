@@ -34,7 +34,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Pattern matching (not regular expressions)
 * Forget NullPointerExceptions as Option's will make your code safe
 * You can reuse your existing Java libraries from Scala
-* Higher order functions[Higher Order functions]
+* Higher order functions(#Higher-Order-functions)
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
@@ -87,30 +87,25 @@ public class SquareOfNumberCalculator {
 ```scala
 package main.scala
 
+
 object SquareOfNumberScalaCalculator extends App {
-  
-     //Define a function to print elements in list    
-     def printList(listToPrint: List[Int]): Unit = {
-       
-       //Call foreach method on each element of list
-        listToPrint.foreach(println( _ ))
-      }
-        
-      //Create a list
+
+      //Create a list. No need of New 
       val list = List(1, 2, 3, 4, 5)
     
       println("Printing original list")
-      printList(list)
+      list.foreach ( println ( _ ) )
     
       //Square every element in the list by calling map method on list
       val squaredList = list.map( x => x * x)
-      println("Priting squared list")
-      printList(squaredList)
+      println("Printing squared list")
+      squaredList.foreach ( println _ )
       
       //Assign a function to a variable 
       //Both take input of type Int and return a Int
-      val square = (x: Int) =>  x * x
+      val square: Int => Int = (x: Int) =>  x * x
       val cube = (x: Int) => x * x * x
+      val newSquare = (x: Double) => x * x
       
       //Function that takes a list and function as parameter
       //The function name is "operation" of type Int input and Int output
@@ -124,10 +119,14 @@ object SquareOfNumberScalaCalculator extends App {
       //Cube
       val cubeList = operateOnList(list, cube)
       
+      //Below code will not work as method signature for newSquare ( (Double) => Double) 
+      //doesn't match expected (Int) => Int
+      //val squareOfDoubles = operateOnList(list, newSquare)
+      
       println("Squared list \n")
-      printList(squareList)
+      squareList.foreach( println _ )
       println("Cubed list \n")
-      printList(cubeList)
+      cubeList.foreach( println _ )
       
       //filter. Filter operation with function literal
       //val cubeGT15 = cubeList.filter( (x) => x > 15)
@@ -164,11 +163,7 @@ The first line
 
 **object SquareOfNumberScalaCalculator extends App {**
 
-Keyword **_object_** makes this a Singleton class. The **_extends App_** makes all the code within like a main method in Java.
-
-**def printList(listToPrint: List[Int]): Unit = {**
-
-**_def_** is keyword for defining a function. It takes parameter listToPrint of type **_List[Int]_**. The return type is **_Unit_** aka void in Java. In scala you don't need return statement. The last statement in a function is the return value.
+Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the code within like a main method in Java.
 
 **_listToPrint.foreach(println( _ ))_**
 
@@ -188,7 +183,9 @@ Assign a function that takes Input input and Int return to variable square. Simi
 
 [Higher Order functions]: 
 **_def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
- 
+
+**_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
+
 Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
  
 ### Companies using Scala
