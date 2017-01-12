@@ -158,17 +158,23 @@ object SquareOfNumberScalaCalculator extends App {
       presidentsWithFirstNameB.foreach(x => println(x.firstName))
 }
 ```
+
+
 The first line
+
 
 ```scala
 object SquareOfNumberScalaCalculator extends App {
 ```
 
+
 Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the code within like a main method in Java.
+
 
 ```scala
 listToPrint.foreach(println( _ ))
 ```
+
 
 We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
 
@@ -263,8 +269,6 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
 * Apple
 * Precog
 * Sony
-* Workday
-* Precog
 * Workday
 
 
