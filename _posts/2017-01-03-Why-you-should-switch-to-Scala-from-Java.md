@@ -160,11 +160,15 @@ object SquareOfNumberScalaCalculator extends App {
 ```
 The first line
 
-**object SquareOfNumberScalaCalculator extends App {**
+```scala
+object SquareOfNumberScalaCalculator extends App {
+```
 
 Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the code within like a main method in Java.
 
-**_listToPrint.foreach(println( _ ))_**
+```scala
+listToPrint.foreach(println( _ ))
+```
 
 We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
 
@@ -176,15 +180,21 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 <a name="Type-Inference-Immutability">
 
- **_val list = List(1, 2, 3, 4, 5)_**
+ ```scala
+ val list = List(1, 2, 3, 4, 5)
+ ```
  
  In scala during initialization we can define variable to be a variable (var) or a constant (val). Scala prefers Immutability whenever possible. So you can't reassign variable list to any thing else as it is a val. There is no need for **_new_** for creating List. We will discuss that later. In Scala data types are inferred. You never mentioned constant list is of type List collection but Scala compiler will infer it. 
  
- **_val squaredList = list.map( x => x * x)_**
+ ```scala
+ val squaredList = list.map( x => x * x)
+ ```
  
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another **_NEW_** collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
-**_val square = (x: Int) =>  x * x_**
+```scala
+val square = (x: Int) =>  x * x
+```
 
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
@@ -208,7 +218,9 @@ val cube = (x: Int) => x * x * x
 
 We assigned a variable cube to a function. The function type here is inferred ( Int => Int ) instead of explicity specifying it. The body of function is **_(x: Int) => x * x * x_**
 
-**_def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
+```scala
+def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {
+```
 
 **_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
 
@@ -224,7 +236,9 @@ Define a function "operateOnList" that takes a list and function as parameters. 
 
 ### Simple class definition 
 
-**_case class Person(firstName: String, lastName: String)_**
+```scala
+case class Person(firstName: String, lastName: String)
+```
 
 Here we defined a class with member variables, constructor, getter and setter methods.
  
