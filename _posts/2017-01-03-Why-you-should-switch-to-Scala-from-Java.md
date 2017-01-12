@@ -171,7 +171,9 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 ---
 
+
 ### Type Inference and Immutability
+
 
 <a name="Type-Inference-Immutability">
 
@@ -189,7 +191,9 @@ Assign a function that takes Input input and Int return to variable square. Simi
 
 --- 
 
+
 <a name="Higher-Order-functions"></a>
+
 
 ### Higher Order functions
 
@@ -201,7 +205,9 @@ Define a function "operateOnList" that takes a list and function as parameters. 
 
 --- 
 
+
 <a name="Getter-Setter-Not-Required"></a>
+
 
 ### Simple class definition 
 
