@@ -182,6 +182,8 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
 <a name="Higher-Order-functions"></a>
+### Higher Order functions
+
 **_def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
 
 **_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
