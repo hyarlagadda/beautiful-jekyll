@@ -32,6 +32,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Runs on well known Java JVM environment
 * Strong support of Testing (Unit testing frameworks - ScalaTest)
 * Pattern matching (not regular expressions)
+* Forget NullPointerExceptions as Option's will make your code safe
 * You can reuse your existing Java libraries from Scala
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
@@ -104,6 +105,58 @@ object SquareOfNumberScalaCalculator extends App {
       val squaredList = list.map( x => x * x)
       println("Priting squared list")
       printList(squaredList)
+      
+      //Assign a function to a variable 
+      //Both take input of type Int and return a Int
+      val square = (x: Int) =>  x * x
+      val cube = (x: Int) => x * x * x
+      
+      //Function that takes a list and function as parameter
+      //The function name is "operation" of type Int input and Int output
+      def modifyList(list: List[Int], operation: (Int) => Int): List[Int] = {
+        list.map(operation(_))
+      }
+     
+      //square 
+      val squareList = modifyList(list, square)
+      
+      //Cube
+      val cubeList = modifyList(list, cube)
+      
+      println("Squared list \n")
+      printList(squareList)
+      println("Cubed list \n")
+      printList(cubeList)
+      
+      //filter. Filter operation with function literal
+      //val cubeGT15 = cubeList.filter( (x) => x > 15)
+      
+      //Simplified function literal
+      val cubeGT15 = cubeList.filter( _ > 15)
+      
+      println("Cubes > 15")
+      cubeGT15.foreach( println _ )
+     
+      //Define a class
+      case class Person(firstName: String, lastName: String)
+
+      //Instantiate a class
+      val obama = Person("Barack", "Obama")
+      println("first Name: " + obama.firstName)
+      println("last Name: " + obama.lastName)
+      
+      val trump = Person("Donald", "Trump")
+      val bush = Person("George", "W Bush")
+      val clinton = Person("Bill", "Clinton")
+
+      //Create a list
+      val presidents = List(trump, obama, bush, clinton)
+      
+      //Find the presidents with first names starting with B. Creates a new immutable list
+      val presidentsWithFirstNameB = presidents.filter( _.firstName.startsWith("B"))
+      
+      //Print first names
+      presidentsWithFirstNameB.foreach(x => println(x.firstName))
 }
 ```
 The first line
@@ -128,8 +181,18 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
  
  We are calling a map method on list. A map operation on a collection executes function passed on every element of the collection and returns another **_NEW_** collection. Here, we are passing a anonymous function **_x => x * x_** It takes each element and multiplies by itself (square).
  
+**_val square = (x: Int) =>  x * x_**
+
+Assign a function that takes Input input and Int return to variable square. Similary for cube.
+
+**_def modifyList(list: List[Int], operation: (Int) => Int): List[Int] = {_**
+ 
+Define a function that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
+ 
 ### Companies using Scala
 
+You might be wondering, nobody at work uses Scala why should I learn it. Below, are some top tech companies large and small using Scala.
+   
 * Twitter
 * LinkedIn
 * Foursquare
