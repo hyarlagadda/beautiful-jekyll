@@ -173,7 +173,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 <a name="#Type-Inference">
 <a name="#Immutability">
-### Type Inference & Immutability
+### Type Inference and Immutability
 
  **_val list = List(1, 2, 3, 4, 5)_**
  
