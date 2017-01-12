@@ -12,7 +12,6 @@ date: '2017-01-03'
     
 If you are like me, you are a veteran Java developer for more than a decade. You are bored of writing boiler plate Java code year after year. The only Java changes you heard in a decade are Java version changes every four years or so. 
     
-    
 If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails developers, AngularJS developers, Python developers hack away building full stack web apps in couple of hours. In contrast, as a Java developer you are still trying to create the folder structure for a traditional Java/J2EE application. How do you compete when your core skillset, Java in a JVM environment is such a big disadvantage? 
  
 ### New Kid on the block
@@ -169,7 +168,7 @@ Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the
 
 We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
 
----
+----
 
 
 ### Type Inference and Immutability
@@ -189,7 +188,7 @@ We are passing a funtion **_println_** to a function **_foreach_**. This is call
 
 Assign a function that takes Input input and Int return to variable square. Similary for cube.
 
---- 
+---- 
 
 
 ### Higher Order functions
@@ -217,7 +216,7 @@ Define a function "operateOnList" that takes a list and function as parameters. 
 
 
 
---- 
+---- 
 
 
 <a name="Getter-Setter-Not-Required"></a>
@@ -229,7 +228,7 @@ Define a function "operateOnList" that takes a list and function as parameters. 
 
 Here we defined a class with member variables, constructor, getter and setter methods.
  
---- 
+---- 
 
 ### Companies using Scala
 
@@ -248,6 +247,7 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
 * Precog
 * Workday
 
+----
 
 #### Conclusion
  
