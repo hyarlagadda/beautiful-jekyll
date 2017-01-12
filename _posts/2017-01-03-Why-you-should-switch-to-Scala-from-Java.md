@@ -26,7 +26,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Type inference
 * Encourages immutability
 * Strong Type safety
-* Getter and Setter methods on member data is not requied
+* [Getter and Setter methods on meber data is not requied](#Getter-Setter-Not-Required)
 * Large open source community ([PlayFramework](http://www.playframework.com) for web apps with scaffolding, [Akka](http://akka.io) for REST API, [Scalajs](https://www.scala-js.org/) for Javascript etc)
 * Ability to write Domain Specific languages (DSL) with ease
 * Runs on well known Java JVM environment
@@ -191,7 +191,18 @@ Assign a function that takes Input input and Int return to variable square. Simi
 **_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
 
 Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
+
+--- 
+
+<a name="Getter-Setter-Not-Required"></a>
+### Simple class definition 
+
+**_case class Person(firstName: String, lastName: String)_**
+
+Here we defined a class with member variables, constructor, getter and setter methods.
  
+--- 
+
 ### Companies using Scala
 
 You might be wondering, nobody at work uses Scala why should I learn it. Below, are some top tech companies large and small using Scala.
