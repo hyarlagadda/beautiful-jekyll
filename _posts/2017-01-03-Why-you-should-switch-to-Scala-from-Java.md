@@ -26,7 +26,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Type inference
 * Encourages immutability
 * Strong Type safety
-* Getter and Setter on member data is not requied
+* Getter and Setter methods on member data is not requied
 * Large open source community ([PlayFramework](http://www.playframework.com) for web apps with scaffolding, [Akka](http://akka.io) for REST API, [Scalajs](https://www.scala-js.org/) for Javascript etc)
 * Ability to write Domain Specific languages (DSL) with ease
 * Runs on well known Java JVM environment
