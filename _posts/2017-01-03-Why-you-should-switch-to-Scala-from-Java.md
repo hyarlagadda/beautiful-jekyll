@@ -24,6 +24,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
   * Semicolons (;) are not needed at end of every statement
   * Create model/POJO classes using case classes. Don't need _new_, _contrstructor_, _getters_ & _setters_
   * Forget for loops and use collection operations (combinators) like map, filter, foreach, flatMap, reverse, partition etc.
+  * _return_ keyword is not needed. Last statemtent of any function becomes the return value.
 * Writing concurrent/multithreaded code is a breeze
 * [Type inference](#Type-Inference-Immutability)
 * [Encourages immutability](#Type-Inference-Immutability)
@@ -276,15 +277,17 @@ Here we defined a class with member variables, constructor, getter and setter me
 
 You might be wondering, nobody at work uses Scala why should I learn it. Below, are some top tech companies large and small using Scala.
    
-* Twitter
-* LinkedIn
-* Foursquare
-* Netflix
 * AirBnB
-* The Guardian
 * Apple
+* Comcast
+* Coursera
+* Foursquare
+* LinkedIn
+* Netflix
 * Precog
 * Sony
+* The Guardian
+* Twitter
 * Workday
 
 
