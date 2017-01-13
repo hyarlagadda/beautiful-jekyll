@@ -160,6 +160,9 @@ object SquareOfNumberScalaCalculator extends App {
 ```
 
 
+----
+
+
 ### Programs entry point
 
 
@@ -231,13 +234,13 @@ Assign a function that takes Input input and Int return to variable square. Simi
 val square: Int => Int = (x: Int) =>  x * x
 ```
 
-We assigned a function to a variable square. square is a type of function signature ( Int => Int ) that takes input as Int and returns a Int. The body of the function is **_(x: Int) => x * x_**
+We assigned a function to variable square. square is a type of function signature ( Int => Int ) that takes input as Int and returns a Int. The body of the function is **_(x: Int) => x * x_**
 
 ```scala
 val cube = (x: Int) => x * x * x
 ```
 
-We assigned a variable cube to a function. The function type here is inferred ( Int => Int ) instead of explicity specifying it. The body of function is **_(x: Int) => x * x * x_**
+We assigned a function to variable cube. The function type here is inferred ( Int => Int ) instead of explicity specifying it. The body of function is **_(x: Int) => x * x * x_**
 
 ```scala
 def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {
@@ -245,7 +248,7 @@ def operateOnList(list: List[Int], operation: (Int) => Int): List[Int] = {
 
 **_def_** is keyword for defining a function. It takes parameter list of type **_List[Int]_** . The return type is **_List[Int]_**. In scala you don't need return statement. The last statement in a function is the return value.
 
-Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input input and Input output. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
+Define a function "operateOnList" that takes a list and function as parameters. The signature of function parameter is Input of type Int and output of type Int. Any function that satisfies this signature can be passed. Both square and cube constant vals satisfy this condition.
 
 
 ---- 
