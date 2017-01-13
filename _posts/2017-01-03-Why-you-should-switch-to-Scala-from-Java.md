@@ -160,7 +160,7 @@ object SquareOfNumberScalaCalculator extends App {
 ```
 
 
-The first line
+### Programs entry point
 
 
 ```scala
@@ -168,7 +168,17 @@ object SquareOfNumberScalaCalculator extends App {
 ```
 
 
-Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the code within like a main method in Java.
+Keyword **_object_** makes this a Singleton. The **_extends App_** makes all the code within like a main method in Java. 
+
+You could also do 
+
+```scala
+object SquareOfNumberScalaCalculator {
+    def main(args: Array[String]) {
+    	......
+    }
+}
+```
 
 
 ```scala
