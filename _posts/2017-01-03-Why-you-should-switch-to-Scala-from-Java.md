@@ -39,9 +39,11 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Forget NullPointerExceptions as Option's will make your code safe
 * You can reuse your existing Java libraries from Scala
 * [Higher order functions](#Higher-Order-functions)
+* Great compiled language for writing scripts
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
-[Source code for below examples from GitHub][Source]
+Clone [Source code from GitHub][Source]
+Open Scala Eclipse and do a File-> Import.
 
 #### Java version
 
