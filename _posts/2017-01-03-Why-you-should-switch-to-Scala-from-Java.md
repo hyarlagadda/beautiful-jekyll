@@ -25,6 +25,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
   * Create model/POJO classes using case classes. Don't need _new_, _contrstructor_, _getters_ & _setters_
   * Forget for loops and use collection operations (combinators) like map, filter, foreach, flatMap, reverse, partition etc.
   * _return_ keyword is not needed. Last statemtent of any function becomes the return value.
+  * You can write more than one class in one file
 * Writing concurrent/multithreaded code is a breeze
 * [Type inference](#Type-Inference-Immutability)
 * [Encourages immutability](#Type-Inference-Immutability)
@@ -40,6 +41,7 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * [Higher order functions](#Higher-Order-functions)
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
+[Source code for below examples from GitHub][Source]
 
 #### Java version
 
@@ -199,7 +201,7 @@ listToPrint.foreach(println( _ ))
 ```
 
 
-We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The **_ _ _** (underscore) is current element. 
+We are passing a funtion **_println_** to a function **_foreach_**. This is called functional programming or Higher Order functions. **_foreach_** executes any function you pass to it on every element of the collection. In this case println( _ ). The underscore is current element.
 
 
 ----
@@ -307,6 +309,8 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  We haven't even scratched the surface of Scala. This is a gentle introduction to get your feet wet. 
  
  Cheers to a New Year and learning a new language Scala !!!
+ 
+ [Source]: https://github.com/hyarlagadda/Scala-Intro
  
  
 
