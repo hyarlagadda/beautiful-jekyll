@@ -88,8 +88,7 @@ public class SquareOfNumberCalculator {
 #### Scala version
 
 ```scala
-package main.scala
-
+package com.harishblog.consider.java
 
 object SquareOfNumberScalaCalculator extends App {
 
@@ -160,6 +159,13 @@ object SquareOfNumberScalaCalculator extends App {
       
       //Print first names
       presidentsWithFirstNameB.foreach(x => println(x.firstName))
+      
+      val companies = List("Twitter", "LinkedIn", "Foursquare", "NetFlix", "AirBnB", "The Guardian", "Apple", "Precog", "Sony", 
+          "Coursera", "Workday", "Comcast")
+          
+      val sortedCompanies = companies.sorted
+      println()
+      sortedCompanies.foreach( println _)
 }
 ```
 
