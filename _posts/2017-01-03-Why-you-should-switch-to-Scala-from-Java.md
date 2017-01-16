@@ -42,7 +42,9 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * Great compiled language for writing scripts
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
+
 Clone [Source code from GitHub][Source]
+
 Open Scala Eclipse and do a File-> Import.
 
 #### Java version
