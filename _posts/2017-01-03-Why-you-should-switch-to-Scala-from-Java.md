@@ -41,12 +41,13 @@ If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails d
 * [Higher order functions](#Higher-Order-functions)
 * Great compiled language for writing scripts
 
+---
+
+
 #### Running the sample code
 
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
-
-Clone [Source code from GitHub][Source]
-
+Clone [Source code from GitHub][Source] 
 Open Scala Eclipse and do a File-> Import.
 
 #### Java version
