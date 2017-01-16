@@ -18,7 +18,7 @@ If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails d
 
 #### You have a new language to the rescue. Welcome to Scala language !!!
 
-Scala is a functional programming language built to run on Java JVM. That's right Scala needs Java JDK to run. Martin Odersky created scala after realizing all the downfalls of Java. In fact, Martin was original member of Java compiler team. Scala has no boilerplate code compared to Java.
+[Scala](http://www.scala-lang.org) is a functional programming language built to run on Java JVM. That's right Scala needs Java JDK to run. Martin Odersky created scala after realizing all the downfalls of Java. In fact, Martin was original member of Java compiler team. Scala has no boilerplate code compared to Java.
         
 * Scala has no boiler plate code.
   * Semicolons (;) are not needed at end of every statement
