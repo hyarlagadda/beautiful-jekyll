@@ -41,6 +41,8 @@ Scala is a functional programming language built to run on Java JVM. That's righ
 * [Higher order functions](#Higher-Order-functions)
 * Great compiled language for writing scripts
 
+#### Running the sample code
+
 To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. 
 
 Clone [Source code from GitHub][Source]
