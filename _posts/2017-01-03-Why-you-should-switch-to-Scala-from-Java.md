@@ -331,7 +331,7 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  References: 
  ![Programming in Scala][ProgrammingInScalaBook]
  
- [ProgrammingInScalaBook]: (http://www.artima.com/shop/programming_in_scala_3ed)
+ [ProgrammingInScalaBook]: (/img/ProgrammingInScalaBook.png)
  
  
 
