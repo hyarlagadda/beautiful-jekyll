@@ -296,7 +296,7 @@ Here we defined a class with member variables, constructor, getter and setter me
 
 ### Companies using Scala
 
-You might be wondering, nobody at work uses Scala why should I learn it. Below, are some top tech companies large and small using Scala.
+You might be wondering, nobody at work uses Scala why should I learn it. Below, are some top tech companies large and small using Scala. The popular fast and general-purpose cluster computing platform, Apache Spark is written in Scala.
    
 * AirBnB
 * Apple
@@ -324,6 +324,14 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  Cheers to a New Year and learning a new language Scala !!!
  
  [Source]: https://github.com/hyarlagadda/Scala-Intro
+ 
+ ----
+ 
+ 
+ References: 
+ ![Programming in Scala][ProgrammingInScalaBook]
+ 
+ [ProgrammingInScalaBook]: (http://www.artima.com/shop/programming_in_scala_3ed)
  
  
 
