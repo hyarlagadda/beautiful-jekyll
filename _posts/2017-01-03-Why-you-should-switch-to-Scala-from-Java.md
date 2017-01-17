@@ -31,7 +31,7 @@ If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails d
 * [Encourages immutability](#Type-Inference-Immutability)
 * Strong Type safety
 * [Simple class definition](#Getter-Setter-Not-Required). Getter and Setter methods on member data is not requied
-* Large open source community ([PlayFramework](http://www.playframework.com) for web apps with scaffolding, [Akka](http://akka.io) for REST API, [Scalajs](https://www.scala-js.org/) for Javascript etc)
+* Large open source community ([PlayFramework](http://www.playframework.com) for web apps with scaffolding, [Akka](http://akka.io) for REST API. [Popular Scala Projects](https://scaladex.scala-lang.org/search?q=))
 * Ability to write Domain Specific languages (DSL) with ease
 * Runs on well known Java JVM environment
 * Strong support of Testing (Unit testing frameworks - ScalaTest)
