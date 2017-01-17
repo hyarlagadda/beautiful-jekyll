@@ -323,7 +323,6 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  
  Cheers to a New Year and learning a new language Scala !!!
  
- [Source]: https://github.com/hyarlagadda/Scala-Intro
  
  ----
  
@@ -335,8 +334,11 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  ![Programming in Scala](/img/ProgrammingInScalaBook.png)
  
  #### Online learning 
+ 
   1. [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)
   2. [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala)
  
+ 
+ [Source]: https://github.com/hyarlagadda/Scala-Intro
 
 
