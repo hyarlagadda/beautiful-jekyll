@@ -329,8 +329,12 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
  
  
  References: 
+ Books: 
  ![Programming in Scala](/img/ProgrammingInScalaBook.png)
  
+ Online learning: 
+  1. [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)
+  2. [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala)
  
 
 
