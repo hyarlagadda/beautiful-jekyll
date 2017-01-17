@@ -317,7 +317,7 @@ You might be wondering, nobody at work uses Scala why should I learn it. Below, 
 
 #### Conclusion
  
- Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Types are inferred. Anonymous functions make it easy to express developer intentions. 
+ With Scala we are focussed on the solving problem. **Functional programming is all about "Tell me what needs to be done" whereas imperative programming is "Tell me how it needs to be done"**. Think about all the boiler plate code we had to write in Java for squaring a number (For loop and all). Also, you don't need semicolons for every statement. Types are inferred. Anonymous functions make it easy to express developer intentions. 
  
  We haven't even scratched the surface of Scala. This is a gentle introduction to get your feet wet. 
  
