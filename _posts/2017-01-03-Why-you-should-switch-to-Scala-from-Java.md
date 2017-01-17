@@ -10,7 +10,7 @@ date: '2017-01-03'
 
 ##    Happy New Year 2017 !!! 
     
-If you are like me, you are a veteran Java developer for more than a decade. You are bored of writing boiler plate Java code year after year. The only Java changes you heard in a decade are Java version changes every four years or so. 
+Are you a veteran Java developer? 
     
 If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails developers, AngularJS developers, Python developers hack away building full stack web apps in couple of hours. In contrast, as a Java developer you are still trying to create the folder structure for a traditional Java/J2EE application. How do you compete when your core skillset, Java in a JVM environment is such a big disadvantage? 
  
@@ -18,7 +18,7 @@ If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails d
 
 #### You have a new language to the rescue. Welcome to Scala language !!!
 
-[Scala](http://www.scala-lang.org) is a functional programming language built to run on Java JVM. That's right Scala needs Java JDK to run. Martin Odersky created scala after realizing all the downfalls of Java. In fact, Martin was original member of Java compiler team. Scala has no boilerplate code compared to Java.
+[Scala](http://www.scala-lang.org) is a functional programming language built to run on Java JVM. That's right Scala needs Java JDK to run. Martin Odersky created scala after realizing all the downfalls of Java. In fact, Martin was original member of Java compiler team. Below are several advantages of using Scala over Java.
         
 * Scala has no boiler plate code.
   * Semicolons (;) are not needed at end of every statement
