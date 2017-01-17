@@ -46,7 +46,7 @@ If you have been to Hackathons or Startupweekends, you have seen Ruby on Rails d
 
 #### Running the sample code
 
-1. To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala.
+1. To try some of these samples [download](http://scala-ide.org/) Eclipse IDE for Scala. Interactively learn Scala using the worksheet feature in Eclipse.
 2. Clone [Source code from GitHub][Source]
 3. Open Scala Eclipse and do a File-> Import.
 
