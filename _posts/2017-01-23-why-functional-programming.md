@@ -108,9 +108,32 @@ object Functional extends App {
 ```
 --- 	
 
-#### Functional programming
+### Conclusion
 
-More concepts
+As you can see from above code, the code is elegant, simple and concise as convert our program from imperative to functional code. In functional programs methods filter, map nicely align with our requirement. In functional programs we are not dealing with temporary variables, variable mutations etc.
+
+* Benefits of Functional programming
+ 1. Functional programs are easier to reason. One specific input will always give the same output.
+ 2. Functional programs are easy to test. Because there are no side effects, you don't need mocks.
+ 3. Functional programs are more modular because they're built from functions that have only input and output. 
+ 4. Functional programs makes composition and recombination much easier. 
+ 5. Functional programs are thread-safe as they avoid mutation of shared state. 
+
+
+--- 
+
+####  Features of functional programming languages
+
+* Functional programming language features
+ 1. First-class functions
+ 2. Anonymous functions
+ 3. Closures
+ 4. Currying
+ 5. Lazy evaluation
+ 6. Parametric polymorphism
+ 7. Algebraic data types
+ 
+---
 
 ### Conclusion
 
