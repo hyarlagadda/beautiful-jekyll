@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Why is fuunctional programming important?
 subtitle: Write quality, concise code using Functional programming. Imperative vs Functional programming. 
 date: '2017-01-23'
@@ -110,7 +110,7 @@ object Functional extends App {
 
 ### Conclusion
 
-As you can see from above code, the code is elegant, simple and concise as convert our program from imperative to functional code. In functional programs methods filter, map nicely align with our requirement. In functional programs we are not dealing with temporary variables, variable mutations etc.
+As you can see from above code, the code is elegant, simple and concise as convert our program from imperative to functional code. In functional programs methods filter, map nicely align with our requirement. In functional programs we are not dealing with temporary variables, variable mutations etc. Reading and maintaining this code is easy. In case requirements change it is relatively easy to change our functional code compared to imperative code. 
 
 * Benefits of Functional programming
  1. Functional programs are easier to reason. One specific input will always give the same output.
@@ -135,6 +135,10 @@ As you can see from above code, the code is elegant, simple and concise as conve
  
 ---
 
-### Conclusion
 
 ### References
+
+* 
+ 1. Functional programming in Java
+ 2. Functionally Thinking
+
