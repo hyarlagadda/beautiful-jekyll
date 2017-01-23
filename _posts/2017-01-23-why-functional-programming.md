@@ -95,7 +95,7 @@ public class FunctionalJava8 {
 
 ---
 
-### Functional example: Swift
+#### Functional example: Swift
 
 ```swift
 let numbers = (1...20).filter{ $0 % 2 == 1}.map{ $0 * $0 }.map{ $0 - 1 }
