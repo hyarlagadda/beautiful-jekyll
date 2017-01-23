@@ -147,7 +147,7 @@ As you can see from above code, the code is elegant, simple and concise as conve
 
 ### References
 
-* 
- 1. Functional programming in Java
- 2. Functionally Thinking
-
+1. Functional programming in Java
+2. Functionally Thinking
+3. Functional programming in Swift
+4. Functional Programming in Scala
