@@ -13,9 +13,9 @@ In general terms functional programming is a programming paradigm, and it’s ab
 
 	Below is a quote by John Hughes in 1990 in the article “Why functional Programming matters”.
 
-	1. *No assignment statements*: Functional programs contain no assignment statements, so variables, once given a value, never change. 
-	2. *No side effects*: Generally functional programs contain no side effects at all. A function call can have no effect other than to compute its result. This eliminates a major source of bugs and also makes the order of execution irrelevant — since no side effect can change an expression’s value, it can be evaluated at any time. This relieves the programmer of the burden of prescribing the flow of control.
-	3. *Referentially transparent*: Since expressions can be evaluated at any time, one can freely replace variables by their values and vice versa — that is programs are “referentially transparent”
+	1. No assignment statements: Functional programs contain no assignment statements, so variables, once given a value, never change. 
+	2. No side effects: Generally functional programs contain no side effects at all. A function call can have no effect other than to compute its result. This eliminates a major source of bugs and also makes the order of execution irrelevant — since no side effect can change an expression’s value, it can be evaluated at any time. This relieves the programmer of the burden of prescribing the flow of control.
+	3. Referentially transparent: Since expressions can be evaluated at any time, one can freely replace variables by their values and vice versa — that is programs are “referentially transparent”
 
 --- 
 
