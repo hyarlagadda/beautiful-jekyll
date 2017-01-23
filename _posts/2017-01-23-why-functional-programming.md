@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Why is fuunctional programming important?
+title: Why is functional programming important?
 subtitle: Write quality, concise code using Functional programming. Imperative vs Functional programming. 
 date: '2017-01-23'
 ---
