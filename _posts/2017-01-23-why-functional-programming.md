@@ -6,6 +6,8 @@ subtitle: Write quality, concise code using Functional programming. Imperative v
 date: '2017-01-23'
 ---
 
+![Why functional programming](/img/BlackBoard.png) 
+
 ## What is functional programming?
 
 
