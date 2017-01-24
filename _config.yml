@@ -92,7 +92,7 @@ url-pretty: "harishblog.com"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "www-harishblog-com"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-90738089-1"
 
 # Facebook App ID
 # fb_app_id: ""
