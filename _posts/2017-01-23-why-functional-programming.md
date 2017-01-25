@@ -198,7 +198,7 @@ public class ImpNumberClassifierSimple {
 }
 ```
 
-In ImpNumberClassifierSimple we have two elements of internal state. _number_ fields allows to us to avoid passing it as parameter to many functions. The _cache_ holds a map used to cache the sume for each number, yielding faster results. Internal state is common and encouraged in Object-oriented world because OOP languages utilize encapsulation as one of their benefits. Separting state often makes engineering practices such as unit testing easier, allowing easy injection of values.
+In ImpNumberClassifierSimple we have two elements of internal state. _number_ fields allows to us to avoid passing it as parameter to many functions. The _cache_ holds a map used to cache the sum for each number, yielding faster results. Internal state is common and encouraged in Object-oriented world because OOP languages utilize encapsulation as one of their benefits. Separating state often makes engineering practices such as unit testing easier, allowing easy injection of values.
 
 ---
 
