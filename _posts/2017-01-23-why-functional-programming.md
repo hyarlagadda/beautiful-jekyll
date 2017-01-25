@@ -126,9 +126,11 @@ Perfect Number: Equals the sum of its positive divisors - Pair of numbers whose 
 
 Sample 1: 6 is a perfect number because its divisors are 1, 2, 3 and 6 = 1+2+3; Similarly 28 = 1 + 2 + 4 + 7 + 14
 
-Perfect Sum of factors = number
-Abundant Sum of factors > number
-Deficient Sum of factors < number
+|Classification|Condition |
+|:--------------|:----------:|
+| Perfect | Sum of factors = number |
+| Abundant | Sum of factors > number |
+| Deficient | Sum of factors < number |
 
 #### Imperative Number classification
 
