@@ -133,8 +133,117 @@ Deficient Sum of factors < number
 #### Imperative Number classification
 
 ```java
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
+public class ImpNumberClassifierSimple {
+
+    private int _number;           //Internal state to hold the target number               
+    private Map<Integer, Integer> _cache;   //Internal cache to prevent recalculation      
+
+    public ImpNumberClassifierSimple(int targetNumber) {
+      _number = targetNumber;
+      _cache = new HashMap<>();
+    }
+
+    public boolean isFactor(int potential) {
+      return _number % potential == 0;
+    }
+
+    public Set<Integer> getFactors() {
+        Set<Integer> factors = new HashSet<>();
+        factors.add(1);
+        factors.add(_number);
+        for (int i = 2; i < _number; i++)
+            if (isFactor(i))
+                factors.add(i);
+        
+        factors.stream().forEach(k-> System.out.println(k));
+        System.out.println();
+
+        return factors;
+    }
+
+    public int aliquotSum() {        //Calculation of aliquot sum, sum of factors - number itself              
+        if (_cache.get(_number) == null) {
+            int sum = 0;
+            for (int i : getFactors())
+                sum += i;
+            _cache.put(_number, sum - _number);
+        }
+        return _cache.get(_number);
+    }
+
+    public boolean isPerfect() {
+        return aliquotSum() == _number;
+    }
+
+    public boolean isAbundant() {
+        return aliquotSum() > _number;
+    }
+
+    public boolean isDeficient() {
+        return aliquotSum() < _number;
+    }
+    
+    public static void main(String args[]) {
+    	
+    	ImpNumberClassifierSimple imp = new ImpNumberClassifierSimple(28);
+    	System.out.println(imp.isPerfect());
+    }
+}
 ```
+
+In ImpNumberClassifierSimple we have two elements of internal state. _number_ fields allows to us to avoid passing it as parameter to many functions. The _cache_ holds a map used to cache the sume for each number, yielding faster results. Internal state is common and encouraged in Object-oriented world because OOP languages utilize encapsulation as one of their benefits. Separting state often makes engineering practices such as unit testing easier, allowing easy injection of values.
+
+---
+
+#### Java 8 Number classification
+
+```java
+public class NumberClassifier {
+
+    public static IntStream factorsOf(int number) {
+        return range(1, number + 1)
+                .filter(potential -> number % potential == 0);
+    }
+
+    public static int aliquotSum(int number) {
+        return factorsOf(number).sum() - number;
+    }
+
+    public static boolean isPerfect(int number) {
+        return aliquotSum(number) == number;
+    }
+
+    public static boolean isAbundant(int number) {
+        return aliquotSum(number)> number;
+    }
+
+    public static boolean isDeficient(int number) {
+        return aliquotSum(number) < number;
+    }
+    
+    public static void main(String args[]) {
+    	System.out.println("Is 28 perfect: " + NumberClassifier.isPerfect(28));
+    }
+
+}
+```
+
+---
+
+The code in Java 8 version is dramatically shorter and simpler than in the original imperative version. All the methods are really self-contained, _pure functions_ with public, static scope. Because there is no internal state in the class, no reason to "hide" any of the methods. The _factors_ method is potentially useful in many other applications, such as searching prime numbers.
+
+The finest-grained element of reuse in object-oriented systems is the class, and developers forget that resuse comes in smaller package. For example, the *sum* method accepts a Collection<Integer> rather than a specific type of list. That interface is general for all collections of numbers, making it more generally reusable at the function level.
+
+In Java 8, the factorsOf() method returns a IntStream, allowing me to chain other operations onto it, including a terminating one that causes the stream to generate values. In other words, the return from factorsOf() isn't a list of integers but rather a stream that hasn't generated any values yet. Writing the aliquotSum() method is trivial; it is the sum of the list of factors minus the number itself. I wasn't required to write the sum() method - in Java 8, it is one of the stream terminators that generates values.
+
+Streams in functional languages work more like potential energy, which is stored for later use. The stream holds the origin of the data, the origin comes from the range() method. The stream doesn't create the values until the developer "asks" for values, using a terminating operation such as _forEach()_ or _sum()_ . This is an example of _lazy evaluation_ .
+
+---
 
 
 ### Conclusion
