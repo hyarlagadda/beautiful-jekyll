@@ -26,7 +26,7 @@ In general terms functional programming is a programming paradigm, and it’s ab
 
 Imperative program specify “How to do something”. Functional programs only care about “What needs to be done”. Imperative programs are modeled as sequence of commands that modify state. 
 
-*Example*: 
+*Example 1*:
 Let’s illustrate the difference between Imperative and functional programming by example. For numbers 1 to 20, find odd numbers, square them and subtract one 1
 
 #### Imperative example: Java
@@ -116,6 +116,26 @@ object Functional extends App {
 
 ```
 --- 	
+
+The above example was simple with no mutable states. Let's look a example with mutable state.
+
+*Example 2*: Number classification
+
+Natural numbers can be categorized into abundant, perfect and deficient. 
+Perfect Number: Equals the sum of its positive divisors - Pair of numbers whose product yields the target number, excluding the number itself.
+
+Sample 1: 6 is a perfect number because its divisors are 1, 2, 3 and 6 = 1+2+3; Similarly 28 = 1 + 2 + 4 + 7 + 14
+
+Perfect Sum of factors = number
+Abundant Sum of factors > number
+Deficient Sum of factors < number
+
+#### Imperative Number classification
+
+```java
+
+```
+
 
 ### Conclusion
 
